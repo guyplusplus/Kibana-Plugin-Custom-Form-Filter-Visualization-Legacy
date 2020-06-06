@@ -49,6 +49,11 @@ const reactVisType = visualizations.types.createReactVisualization({
       //more tabs are possible
     ],
   },
+  options: {
+    showIndexSelection: false,
+    showTimePicker: true,
+    showFilterBar: true,
+  },
   requestHandler: customFormFilterAccountsRequestHandler,
   responseHandler: 'none',
 });
