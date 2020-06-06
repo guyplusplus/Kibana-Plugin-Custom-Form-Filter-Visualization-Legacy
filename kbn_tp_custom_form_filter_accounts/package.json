@@ -1,0 +1,13 @@
+{
+  "name": "kbn_tp_custom_form_filter_accounts",
+  "version": "1.0.0",
+  "kibana": {
+    "version": "7.6.2",
+    "templateVersion": "1.0.0"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@elastic/eui": "18.2.2",
+    "react": "^16.12.0"
+  }
+}
