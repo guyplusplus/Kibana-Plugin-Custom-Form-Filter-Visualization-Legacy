@@ -1,6 +1,6 @@
 # Kibana Plugin - Custom Form Filter Visualization 
 
-This repository is for Kibana v7.6.
+This plugin is built and compiled for Kibana v7.6. It is in a legacy format, not compatible for Kibana 7.7 onward.
 
 Please refer to [this repository](https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization) for the main content.
 
@@ -29,7 +29,7 @@ $ sudo ./bin/kibana-plugin --allow-root install file:///home/john/downloads/kbn_
 $ sudo ./bin/kibana-plugin --allow-root install https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization-Legacy/releases/download/1.0.0/kbn_tp_custom_form_filter_accounts_7.6.0_1.0.0.zip
 ```
 
-Deleting then installing again fails often for me. I fix it by running this command.
+Deleting then installing the plugin often fails for me. I fix it by running this command.
 
 ```
 $ rm -rf /usr/share/kibana/optimize/bundles
