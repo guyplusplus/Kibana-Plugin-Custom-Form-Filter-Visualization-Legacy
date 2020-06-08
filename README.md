@@ -8,7 +8,7 @@ Please refer to [this repository](https://github.com/guyplusplus/Kibana-Plugin-C
 
 ## Packaging the plugin as a zip file
 
-Simply add the plugin directory inside a `kibana` folder and zip the file. Do not include the `kibana/target` directory. The zip structure is
+Simply add the plugin directory inside a `kibana` folder and zip the file. Do not include the `my-plugin/target` directory in the zip file. The zip structure is
 
 ```
 my-plugin_7.6.0.zip
