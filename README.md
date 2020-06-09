@@ -8,12 +8,16 @@ Please refer to [this repository](https://github.com/guyplusplus/Kibana-Plugin-C
 
 ## Packaging the plugin as a zip file
 
-Simply add the plugin directory inside a `kibana` folder and zip the file. Do not include the `my-plugin/target` directory in the zip file. The zip structure is
+Simply add the plugin directory inside a `kibana` folder and zip the file. Filename format carries the Kibana version (i.e. 7.6.0) followed by the plugin version (i.e. 1.0.0). Do not include the `kbn_tp_custom_form_filter_accounts/target` directory in the zip file.
+
+To change the Kibana version, just change the file `kbn_tp_custom_form_filter_accounts/package.json`, value `kibana.version`.
+
+The zip structure is
 
 ```
-my-plugin_7.6.0.zip
+kbn_tp_custom_form_filter_accounts_7.6.0_1.0.0.zip
   kibana/
-    my-plugin/
+    kbn_tp_custom_form_filter_accounts/
       package.json
       config.js
       public/
@@ -34,5 +38,8 @@ $ sudo ./bin/kibana-plugin --allow-root install https://github.com/guyplusplus/K
 Deleting then installing the plugin often fails for me. I fix it by running this command.
 
 ```
-$ rm -rf /usr/share/kibana/optimize/bundles
+$ sudo ./bin/kibana-plugin --allow-root remove kbn_tp_custom_form_filter_accounts
+Removing kbn_tp_custom_form_filter_accounts...
+Plugin removal complete
+$ sudo rm -rf /usr/share/kibana/optimize/bundles
 ```
