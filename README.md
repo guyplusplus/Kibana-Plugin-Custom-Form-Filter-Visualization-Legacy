@@ -1,10 +1,10 @@
-# Kibana Plugin - Custom Form Filter Visualization 
+# Kibana Plugin - Custom Form Filter Visualization - Legacy Architecture
 
 This plugin is built and compiled for Kibana **v7.6.2**. It is in a legacy format, not compatible for Kibana 7.7 onward. Also as the APIs are very volitile, under work toward the new plugin modern architecture, the code does not work for v7.7.0 nor v7.7.1.
 
 The plugin is based on [kbn_tp_custom_visualizations](https://github.com/elastic/kibana/tree/v7.6.2/test/plugin_functional/plugins/kbn_tp_custom_visualizations).
 
-Please refer to [this repository](https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization) for the main content.
+Please refer to **[this repository](https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization) for the main content**.
 
 ## Packaging the plugin as a zip file
 
