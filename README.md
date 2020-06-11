@@ -1,6 +1,6 @@
 # Kibana Plugin - Custom Form Filter Visualization 
 
-This plugin is built and compiled for Kibana v7.6.2. It is in a legacy format, not compatible for Kibana 7.7 onward.
+This plugin is built and compiled for Kibana **v7.6.2**. It is in a legacy format, not compatible for Kibana 7.7 onward. Also as the APIs are very volitile, under work toward the new plugin modern architecture, the code does not work for v7.7.0 nor v7.7.1.
 
 The plugin is based on [kbn_tp_custom_visualizations](https://github.com/elastic/kibana/tree/v7.6.2/test/plugin_functional/plugins/kbn_tp_custom_visualizations).
 
@@ -9,8 +9,6 @@ Please refer to [this repository](https://github.com/guyplusplus/Kibana-Plugin-C
 ## Packaging the plugin as a zip file
 
 Simply add the plugin directory inside a `kibana` folder and zip the file. Filename format carries the Kibana version (i.e. 7.6.0) followed by the plugin version (i.e. 1.0.0). Do not include the `kbn_tp_custom_form_filter_accounts/target` directory in the zip file.
-
-To change the Kibana version, just change the file `kbn_tp_custom_form_filter_accounts/package.json`, value `kibana.version`.
 
 The zip structure is
 
