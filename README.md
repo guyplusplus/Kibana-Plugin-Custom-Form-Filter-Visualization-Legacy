@@ -28,14 +28,14 @@ kbn_tp_custom_form_filter_accounts_7.6.0_1.0.0.zip
 
 The plugin can then be installed like this either locally or remotely.
 
-```
+```shell
 $ sudo ./bin/kibana-plugin --allow-root install file:///home/john/downloads/kbn_tp_custom_form_filter_accounts_7.6.0_1.0.0.zip
 $ sudo ./bin/kibana-plugin --allow-root install https://github.com/guyplusplus/Kibana-Plugin-Custom-Form-Filter-Visualization-Legacy/releases/download/1.0.0/kbn_tp_custom_form_filter_accounts_7.6.0_1.0.0.zip
 ```
 
 Deleting then installing the plugin often fails for me. I fix it by running this command.
 
-```
+```shell
 $ sudo ./bin/kibana-plugin --allow-root remove kbn_tp_custom_form_filter_accounts
 Removing kbn_tp_custom_form_filter_accounts...
 Plugin removal complete
